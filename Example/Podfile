@@ -1,0 +1,9 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'MSWatchKitNotifications', :exclusive => true do
+  pod "MSWatchKitNotifications", :path => "../"
+end
+
+target 'MSWatchKitNotifications WatchKit Extension', :exclusive => true do
+   pod "MSWatchKitNotifications/Extension", :path => "../"
+end

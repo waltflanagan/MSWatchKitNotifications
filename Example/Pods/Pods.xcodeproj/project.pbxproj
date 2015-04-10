@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1061F3FF2358AC86D2D3F61B /* MSWatchKitNotifications.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B83D92137893D4E664F906 /* MSWatchKitNotifications.h */; };
+		19CAB2874603585F4A6D6863 /* MSWatchKitNotificationsInternals.h in Headers */ = {isa = PBXBuildFile; fileRef = 554ED3C0414E76E9B5785665 /* MSWatchKitNotificationsInternals.h */; };
+		1C22919D23D59565A2748BD0 /* UILocalNotification+MSWatchKitNotificationSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEFFAF79B43C7904A3D457B /* UILocalNotification+MSWatchKitNotificationSerialization.m */; };
+		1D7A0FF2CD320D638B1C3D4E /* MSWatchKitNotificationsInternals.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E81B9201C945BD4E93DFDB1 /* MSWatchKitNotificationsInternals.m */; };
+		1D947B3ADB9955F1B0CD3D1F /* UILocalNotification+MSWatchKitNotificationSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEFFAF79B43C7904A3D457B /* UILocalNotification+MSWatchKitNotificationSerialization.m */; };
+		28137B6C82BA39F61901818C /* MSWatchKitNotificationHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 643311CBDC27AF7C7C3F1E34 /* MSWatchKitNotificationHandler.h */; };
+		35FB6C39395E8C099E3D7DF6 /* Pods-MSWatchKitNotifications-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0EDA7EFAA1B7B82126CB8D /* Pods-MSWatchKitNotifications-dummy.m */; };
+		413A519EE5435F4B7163117C /* MSWatchKitNotificationsInternals.h in Headers */ = {isa = PBXBuildFile; fileRef = 554ED3C0414E76E9B5785665 /* MSWatchKitNotificationsInternals.h */; };
+		4C00D7B4D8A9774BD7B115E1 /* UILocalNotification+MSWatchKitNotificationSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = CF6DE9238129A44AAE208825 /* UILocalNotification+MSWatchKitNotificationSerialization.h */; };
+		4E0D44E7F5C4AF89C2ABC733 /* MSWatchKitNotifications.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B83D92137893D4E664F906 /* MSWatchKitNotifications.h */; };
+		52C0E5B283BB945925643E1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BF399A21FCC49DADA9F042 /* Foundation.framework */; };
+		579AEA55DA8ED3CE341D410D /* Pods-MSWatchKitNotifications WatchKit Extension-MSWatchKitNotifications-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1750A1294544232DEEC21CE4 /* Pods-MSWatchKitNotifications WatchKit Extension-MSWatchKitNotifications-dummy.m */; };
+		8E079D4CD94A6EC97441892E /* WKInterfaceController+MSWatchKitNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9F59600265A10C7E254E8F /* WKInterfaceController+MSWatchKitNotifications.m */; };
+		94187B213EC65D4CC01B04B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BF399A21FCC49DADA9F042 /* Foundation.framework */; };
+		95D687200F2990A8E9D1756C /* Pods-MSWatchKitNotifications-MSWatchKitNotifications-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5FD5E6CFC46DF05EBBAD78 /* Pods-MSWatchKitNotifications-MSWatchKitNotifications-dummy.m */; };
+		9AECCDAC30468CB441ACFCBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BF399A21FCC49DADA9F042 /* Foundation.framework */; };
+		A3F359683D6C136C1F379BFD /* UILocalNotification+MSWatchKitNotificationSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = CF6DE9238129A44AAE208825 /* UILocalNotification+MSWatchKitNotificationSerialization.h */; };
+		BB192B2251F0487B1759BABC /* MSWatchKitNotificationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E5814BC45E47702E594F7F /* MSWatchKitNotificationHandler.m */; };
+		CBD2A5E6869BBC66E547DB05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BF399A21FCC49DADA9F042 /* Foundation.framework */; };
+		D87F29758D8237D09204A974 /* MSWatchKitNotificationsInternals.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E81B9201C945BD4E93DFDB1 /* MSWatchKitNotificationsInternals.m */; };
+		DB4B7BAC2BAD40DDE33B448D /* WKInterfaceController+MSWatchKitNotifications.h in Headers */ = {isa = PBXBuildFile; fileRef = 77D9C0732E5A04AF4532CCB5 /* WKInterfaceController+MSWatchKitNotifications.h */; };
+		F672D5D532A7A4E88DBEC91E /* Pods-MSWatchKitNotifications WatchKit Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 980607EA7D898DADA33C1298 /* Pods-MSWatchKitNotifications WatchKit Extension-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63787AC68234F4531E367D21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7D391C61F4547542D60D857 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F77BF5BAA842410AB21BA1E1;
+			remoteInfo = "Pods-MSWatchKitNotifications WatchKit Extension-MSWatchKitNotifications";
+		};
+		64CECF4C07B1FC5948B8762A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7D391C61F4547542D60D857 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CE7EFA10A51739659747422;
+			remoteInfo = "Pods-MSWatchKitNotifications-MSWatchKitNotifications";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1750A1294544232DEEC21CE4 /* Pods-MSWatchKitNotifications WatchKit Extension-MSWatchKitNotifications-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSWatchKitNotifications WatchKit Extension-MSWatchKitNotifications-dummy.m"; sourceTree = "<group>"; };
+		25E5814BC45E47702E594F7F /* MSWatchKitNotificationHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MSWatchKitNotificationHandler.m; sourceTree = "<group>"; };
+		2C6464AD0FADC23AF31C405D /* Pods-MSWatchKitNotifications-MSWatchKitNotifications-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-MSWatchKitNotifications-MSWatchKitNotifications-prefix.pch"; path = "../Pods-MSWatchKitNotifications-MSWatchKitNotifications/Pods-MSWatchKitNotifications-MSWatchKitNotifications-prefix.pch"; sourceTree = "<group>"; };
+		3948B73CD77CFCD95A30A52F /* Pods-MSWatchKitNotifications WatchKit Extension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSWatchKitNotifications WatchKit Extension-resources.sh"; sourceTree = "<group>"; };
+		39F4F6DBC65D532A537053A2 /* Pods-MSWatchKitNotifications-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSWatchKitNotifications-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3FC607F43488552E7E776CD4 /* Pods-MSWatchKitNotifications WatchKit Extension-MSWatchKitNotifications-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSWatchKitNotifications WatchKit Extension-MSWatchKitNotifications-Private.xcconfig"; sourceTree = "<group>"; };
+		492A8B2822B878959346B353 /* Pods-MSWatchKitNotifications WatchKit Extension-MSWatchKitNotifications.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSWatchKitNotifications WatchKit Extension-MSWatchKitNotifications.xcconfig"; sourceTree = "<group>"; };
+		4F9F59600265A10C7E254E8F /* WKInterfaceController+MSWatchKitNotifications.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WKInterfaceController+MSWatchKitNotifications.m"; sourceTree = "<group>"; };
+		54BF399A21FCC49DADA9F042 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		554ED3C0414E76E9B5785665 /* MSWatchKitNotificationsInternals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MSWatchKitNotificationsInternals.h; sourceTree = "<group>"; };
+		5D72561D887AA14F94214F4E /* Pods-MSWatchKitNotifications-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSWatchKitNotifications-resources.sh"; sourceTree = "<group>"; };
+		5E81B9201C945BD4E93DFDB1 /* MSWatchKitNotificationsInternals.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MSWatchKitNotificationsInternals.m; sourceTree = "<group>"; };
+		643311CBDC27AF7C7C3F1E34 /* MSWatchKitNotificationHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MSWatchKitNotificationHandler.h; sourceTree = "<group>"; };
+		649E8F37238BC3457E1D2122 /* Pods-MSWatchKitNotifications WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSWatchKitNotifications WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		6976293C86E6F40C75E638BF /* Pods-MSWatchKitNotifications WatchKit Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSWatchKitNotifications WatchKit Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		70B83D92137893D4E664F906 /* MSWatchKitNotifications.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MSWatchKitNotifications.h; sourceTree = "<group>"; };
+		74F723CF929C500E59C773AA /* Pods-MSWatchKitNotifications-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSWatchKitNotifications-acknowledgements.plist"; sourceTree = "<group>"; };
+		77D9C0732E5A04AF4532CCB5 /* WKInterfaceController+MSWatchKitNotifications.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WKInterfaceController+MSWatchKitNotifications.h"; sourceTree = "<group>"; };
+		7A5E3B8246BA40E2C34BD186 /* libPods-MSWatchKitNotifications-MSWatchKitNotifications.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MSWatchKitNotifications-MSWatchKitNotifications.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		804430F44EF97DCDC65E8C5B /* Pods-MSWatchKitNotifications-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MSWatchKitNotifications-environment.h"; sourceTree = "<group>"; };
+		8191D29B730D70BAE271D867 /* libPods-MSWatchKitNotifications WatchKit Extension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MSWatchKitNotifications WatchKit Extension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D577B70253E49D94CF40C16 /* libPods-MSWatchKitNotifications WatchKit Extension-MSWatchKitNotifications.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MSWatchKitNotifications WatchKit Extension-MSWatchKitNotifications.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		980607EA7D898DADA33C1298 /* Pods-MSWatchKitNotifications WatchKit Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSWatchKitNotifications WatchKit Extension-dummy.m"; sourceTree = "<group>"; };
+		9B5FD5E6CFC46DF05EBBAD78 /* Pods-MSWatchKitNotifications-MSWatchKitNotifications-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-MSWatchKitNotifications-MSWatchKitNotifications-dummy.m"; path = "../Pods-MSWatchKitNotifications-MSWatchKitNotifications/Pods-MSWatchKitNotifications-MSWatchKitNotifications-dummy.m"; sourceTree = "<group>"; };
+		AE84780DDABA4AB11B37B5C9 /* Pods-MSWatchKitNotifications.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSWatchKitNotifications.debug.xcconfig"; sourceTree = "<group>"; };
+		AF0EDA7EFAA1B7B82126CB8D /* Pods-MSWatchKitNotifications-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSWatchKitNotifications-dummy.m"; sourceTree = "<group>"; };
+		BB389219AA2B20CABEC9D34D /* libPods-MSWatchKitNotifications.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MSWatchKitNotifications.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C862B2D81FF678D432D3161B /* Pods-MSWatchKitNotifications-MSWatchKitNotifications-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSWatchKitNotifications-MSWatchKitNotifications-Private.xcconfig"; path = "../Pods-MSWatchKitNotifications-MSWatchKitNotifications/Pods-MSWatchKitNotifications-MSWatchKitNotifications-Private.xcconfig"; sourceTree = "<group>"; };
+		CF3830BCBB7A1F36B3B303CB /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CF6DE9238129A44AAE208825 /* UILocalNotification+MSWatchKitNotificationSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILocalNotification+MSWatchKitNotificationSerialization.h"; sourceTree = "<group>"; };
+		D145681006B06F5489C194B6 /* Pods-MSWatchKitNotifications WatchKit Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSWatchKitNotifications WatchKit Extension-acknowledgements.plist"; sourceTree = "<group>"; };
+		E7009EB7953FC760AD2FF267 /* Pods-MSWatchKitNotifications.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSWatchKitNotifications.release.xcconfig"; sourceTree = "<group>"; };
+		F14E8C285931F77DE2AC4B08 /* Pods-MSWatchKitNotifications WatchKit Extension-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MSWatchKitNotifications WatchKit Extension-environment.h"; sourceTree = "<group>"; };
+		F67591B6E182256D0B1B599B /* Pods-MSWatchKitNotifications WatchKit Extension-MSWatchKitNotifications-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MSWatchKitNotifications WatchKit Extension-MSWatchKitNotifications-prefix.pch"; sourceTree = "<group>"; };
+		FBEFFAF79B43C7904A3D457B /* UILocalNotification+MSWatchKitNotificationSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILocalNotification+MSWatchKitNotificationSerialization.m"; sourceTree = "<group>"; };
+		FECAC621606827128049EA79 /* Pods-MSWatchKitNotifications-MSWatchKitNotifications.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSWatchKitNotifications-MSWatchKitNotifications.xcconfig"; path = "../Pods-MSWatchKitNotifications-MSWatchKitNotifications/Pods-MSWatchKitNotifications-MSWatchKitNotifications.xcconfig"; sourceTree = "<group>"; };
+		FEDA60833ED858B3C6B7BA64 /* Pods-MSWatchKitNotifications WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSWatchKitNotifications WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6796FABCD0523CB362D04D59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AECCDAC30468CB441ACFCBC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EFA0FDD0FDDEC10842BFC56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94187B213EC65D4CC01B04B9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B52CBF553576050A2729147C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C0E5B283BB945925643E1C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB2014FB3B7C2086C8EF55DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD2A5E6869BBC66E547DB05 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02FABBED6E568CAA7BDBDCFF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				66C6EE726769ED6572EB5982 /* Extension */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		227C7203091DB770E25FF3E3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				02FABBED6E568CAA7BDBDCFF /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		363A989286B6AE3F4CD72BB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52299F659C5009A006E1249B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4074792BCF6DB356642BE7F3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				70B83D92137893D4E664F906 /* MSWatchKitNotifications.h */,
+				554ED3C0414E76E9B5785665 /* MSWatchKitNotificationsInternals.h */,
+				5E81B9201C945BD4E93DFDB1 /* MSWatchKitNotificationsInternals.m */,
+				CF6DE9238129A44AAE208825 /* UILocalNotification+MSWatchKitNotificationSerialization.h */,
+				FBEFFAF79B43C7904A3D457B /* UILocalNotification+MSWatchKitNotificationSerialization.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		52299F659C5009A006E1249B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				54BF399A21FCC49DADA9F042 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		66C6EE726769ED6572EB5982 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				77D9C0732E5A04AF4532CCB5 /* WKInterfaceController+MSWatchKitNotifications.h */,
+				4F9F59600265A10C7E254E8F /* WKInterfaceController+MSWatchKitNotifications.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		6996F0E12BFA7A1A0DDC10E9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4074792BCF6DB356642BE7F3 /* Core */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6BC05B44FAEF15EF5E2B20AC /* Pods-MSWatchKitNotifications WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6976293C86E6F40C75E638BF /* Pods-MSWatchKitNotifications WatchKit Extension-acknowledgements.markdown */,
+				D145681006B06F5489C194B6 /* Pods-MSWatchKitNotifications WatchKit Extension-acknowledgements.plist */,
+				980607EA7D898DADA33C1298 /* Pods-MSWatchKitNotifications WatchKit Extension-dummy.m */,
+				F14E8C285931F77DE2AC4B08 /* Pods-MSWatchKitNotifications WatchKit Extension-environment.h */,
+				3948B73CD77CFCD95A30A52F /* Pods-MSWatchKitNotifications WatchKit Extension-resources.sh */,
+				649E8F37238BC3457E1D2122 /* Pods-MSWatchKitNotifications WatchKit Extension.debug.xcconfig */,
+				FEDA60833ED858B3C6B7BA64 /* Pods-MSWatchKitNotifications WatchKit Extension.release.xcconfig */,
+			);
+			name = "Pods-MSWatchKitNotifications WatchKit Extension";
+			path = "Target Support Files/Pods-MSWatchKitNotifications WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		78C2C5ACCFCD42C1AD05EA7C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6996F0E12BFA7A1A0DDC10E9 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		7AA70D287066B35A8CF77434 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD5A56364573BA1165F8BBEE /* MSWatchKitNotifications */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		806A9D8E5765BA41EAB20D73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB389219AA2B20CABEC9D34D /* libPods-MSWatchKitNotifications.a */,
+				8191D29B730D70BAE271D867 /* libPods-MSWatchKitNotifications WatchKit Extension.a */,
+				8D577B70253E49D94CF40C16 /* libPods-MSWatchKitNotifications WatchKit Extension-MSWatchKitNotifications.a */,
+				7A5E3B8246BA40E2C34BD186 /* libPods-MSWatchKitNotifications-MSWatchKitNotifications.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B8ACE647CC31D62394F7B46 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				227C7203091DB770E25FF3E3 /* Pod */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		8C6E89D4DF1D963623EAF0F2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC1AA9A67FE92EF343EC4499 /* Pods-MSWatchKitNotifications */,
+				6BC05B44FAEF15EF5E2B20AC /* Pods-MSWatchKitNotifications WatchKit Extension */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BB9BC4742DD5F9E8D15EB7DC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F9E332F1D458560C3BAD6F11 /* Pod */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		BD5A56364573BA1165F8BBEE /* MSWatchKitNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				BB9BC4742DD5F9E8D15EB7DC /* App */,
+				FD9DBD542468A9E1FEBC57F5 /* Core */,
+				8B8ACE647CC31D62394F7B46 /* Extension */,
+				DA0C95885BE9CDFBABD5A456 /* Support Files */,
+			);
+			name = MSWatchKitNotifications;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CE04CD1F7290E3F20A434AB8 = {
+			isa = PBXGroup;
+			children = (
+				CF3830BCBB7A1F36B3B303CB /* Podfile */,
+				7AA70D287066B35A8CF77434 /* Development Pods */,
+				363A989286B6AE3F4CD72BB9 /* Frameworks */,
+				806A9D8E5765BA41EAB20D73 /* Products */,
+				8C6E89D4DF1D963623EAF0F2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DA0C95885BE9CDFBABD5A456 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				492A8B2822B878959346B353 /* Pods-MSWatchKitNotifications WatchKit Extension-MSWatchKitNotifications.xcconfig */,
+				3FC607F43488552E7E776CD4 /* Pods-MSWatchKitNotifications WatchKit Extension-MSWatchKitNotifications-Private.xcconfig */,
+				1750A1294544232DEEC21CE4 /* Pods-MSWatchKitNotifications WatchKit Extension-MSWatchKitNotifications-dummy.m */,
+				F67591B6E182256D0B1B599B /* Pods-MSWatchKitNotifications WatchKit Extension-MSWatchKitNotifications-prefix.pch */,
+				FECAC621606827128049EA79 /* Pods-MSWatchKitNotifications-MSWatchKitNotifications.xcconfig */,
+				C862B2D81FF678D432D3161B /* Pods-MSWatchKitNotifications-MSWatchKitNotifications-Private.xcconfig */,
+				9B5FD5E6CFC46DF05EBBAD78 /* Pods-MSWatchKitNotifications-MSWatchKitNotifications-dummy.m */,
+				2C6464AD0FADC23AF31C405D /* Pods-MSWatchKitNotifications-MSWatchKitNotifications-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-MSWatchKitNotifications WatchKit Extension-MSWatchKitNotifications";
+			sourceTree = "<group>";
+		};
+		DC1AA9A67FE92EF343EC4499 /* Pods-MSWatchKitNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				39F4F6DBC65D532A537053A2 /* Pods-MSWatchKitNotifications-acknowledgements.markdown */,
+				74F723CF929C500E59C773AA /* Pods-MSWatchKitNotifications-acknowledgements.plist */,
+				AF0EDA7EFAA1B7B82126CB8D /* Pods-MSWatchKitNotifications-dummy.m */,
+				804430F44EF97DCDC65E8C5B /* Pods-MSWatchKitNotifications-environment.h */,
+				5D72561D887AA14F94214F4E /* Pods-MSWatchKitNotifications-resources.sh */,
+				AE84780DDABA4AB11B37B5C9 /* Pods-MSWatchKitNotifications.debug.xcconfig */,
+				E7009EB7953FC760AD2FF267 /* Pods-MSWatchKitNotifications.release.xcconfig */,
+			);
+			name = "Pods-MSWatchKitNotifications";
+			path = "Target Support Files/Pods-MSWatchKitNotifications";
+			sourceTree = "<group>";
+		};
+		F3B5F2E36BCBFBE97F72FD02 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				643311CBDC27AF7C7C3F1E34 /* MSWatchKitNotificationHandler.h */,
+				25E5814BC45E47702E594F7F /* MSWatchKitNotificationHandler.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F9E332F1D458560C3BAD6F11 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FF6A2FC329D02538B673B134 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		FD9DBD542468A9E1FEBC57F5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				78C2C5ACCFCD42C1AD05EA7C /* Pod */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		FF6A2FC329D02538B673B134 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F3B5F2E36BCBFBE97F72FD02 /* App */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		127ECF85753F0B2BC7183941 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28137B6C82BA39F61901818C /* MSWatchKitNotificationHandler.h in Headers */,
+				1061F3FF2358AC86D2D3F61B /* MSWatchKitNotifications.h in Headers */,
+				413A519EE5435F4B7163117C /* MSWatchKitNotificationsInternals.h in Headers */,
+				A3F359683D6C136C1F379BFD /* UILocalNotification+MSWatchKitNotificationSerialization.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E393B513C44853F2B81ECA28 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E0D44E7F5C4AF89C2ABC733 /* MSWatchKitNotifications.h in Headers */,
+				19CAB2874603585F4A6D6863 /* MSWatchKitNotificationsInternals.h in Headers */,
+				4C00D7B4D8A9774BD7B115E1 /* UILocalNotification+MSWatchKitNotificationSerialization.h in Headers */,
+				DB4B7BAC2BAD40DDE33B448D /* WKInterfaceController+MSWatchKitNotifications.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4B0B6DF8B98F3809DCC67F7A /* Pods-MSWatchKitNotifications WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14DC0C9327F425DBF3928F7E /* Build configuration list for PBXNativeTarget "Pods-MSWatchKitNotifications WatchKit Extension" */;
+			buildPhases = (
+				EAFDA9EE8785245FE5EB383F /* Sources */,
+				B52CBF553576050A2729147C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF870632327C16AB77B3323A /* PBXTargetDependency */,
+			);
+			name = "Pods-MSWatchKitNotifications WatchKit Extension";
+			productName = "Pods-MSWatchKitNotifications WatchKit Extension";
+			productReference = 8191D29B730D70BAE271D867 /* libPods-MSWatchKitNotifications WatchKit Extension.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6CE7EFA10A51739659747422 /* Pods-MSWatchKitNotifications-MSWatchKitNotifications */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2842FEF16C92B75EE9D03FC3 /* Build configuration list for PBXNativeTarget "Pods-MSWatchKitNotifications-MSWatchKitNotifications" */;
+			buildPhases = (
+				96946A757739DE2097C8FE07 /* Sources */,
+				9EFA0FDD0FDDEC10842BFC56 /* Frameworks */,
+				127ECF85753F0B2BC7183941 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MSWatchKitNotifications-MSWatchKitNotifications";
+			productName = "Pods-MSWatchKitNotifications-MSWatchKitNotifications";
+			productReference = 7A5E3B8246BA40E2C34BD186 /* libPods-MSWatchKitNotifications-MSWatchKitNotifications.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		94439D92668B817519B4F1D3 /* Pods-MSWatchKitNotifications */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B310989F6F54CE16B565428 /* Build configuration list for PBXNativeTarget "Pods-MSWatchKitNotifications" */;
+			buildPhases = (
+				5203E84E4EDB53B2AF53F2BD /* Sources */,
+				6796FABCD0523CB362D04D59 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE7B35E422B41D8535CFDC04 /* PBXTargetDependency */,
+			);
+			name = "Pods-MSWatchKitNotifications";
+			productName = "Pods-MSWatchKitNotifications";
+			productReference = BB389219AA2B20CABEC9D34D /* libPods-MSWatchKitNotifications.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F77BF5BAA842410AB21BA1E1 /* Pods-MSWatchKitNotifications WatchKit Extension-MSWatchKitNotifications */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60AB38E333FE90628C5ECFA0 /* Build configuration list for PBXNativeTarget "Pods-MSWatchKitNotifications WatchKit Extension-MSWatchKitNotifications" */;
+			buildPhases = (
+				03A7BD0221903879DBB66D59 /* Sources */,
+				BB2014FB3B7C2086C8EF55DD /* Frameworks */,
+				E393B513C44853F2B81ECA28 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MSWatchKitNotifications WatchKit Extension-MSWatchKitNotifications";
+			productName = "Pods-MSWatchKitNotifications WatchKit Extension-MSWatchKitNotifications";
+			productReference = 8D577B70253E49D94CF40C16 /* libPods-MSWatchKitNotifications WatchKit Extension-MSWatchKitNotifications.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7D391C61F4547542D60D857 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = DEBAD8B6E2299F6A19A496D7 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE04CD1F7290E3F20A434AB8;
+			productRefGroup = 806A9D8E5765BA41EAB20D73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94439D92668B817519B4F1D3 /* Pods-MSWatchKitNotifications */,
+				4B0B6DF8B98F3809DCC67F7A /* Pods-MSWatchKitNotifications WatchKit Extension */,
+				F77BF5BAA842410AB21BA1E1 /* Pods-MSWatchKitNotifications WatchKit Extension-MSWatchKitNotifications */,
+				6CE7EFA10A51739659747422 /* Pods-MSWatchKitNotifications-MSWatchKitNotifications */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03A7BD0221903879DBB66D59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D87F29758D8237D09204A974 /* MSWatchKitNotificationsInternals.m in Sources */,
+				579AEA55DA8ED3CE341D410D /* Pods-MSWatchKitNotifications WatchKit Extension-MSWatchKitNotifications-dummy.m in Sources */,
+				1D947B3ADB9955F1B0CD3D1F /* UILocalNotification+MSWatchKitNotificationSerialization.m in Sources */,
+				8E079D4CD94A6EC97441892E /* WKInterfaceController+MSWatchKitNotifications.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5203E84E4EDB53B2AF53F2BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35FB6C39395E8C099E3D7DF6 /* Pods-MSWatchKitNotifications-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96946A757739DE2097C8FE07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB192B2251F0487B1759BABC /* MSWatchKitNotificationHandler.m in Sources */,
+				1D7A0FF2CD320D638B1C3D4E /* MSWatchKitNotificationsInternals.m in Sources */,
+				95D687200F2990A8E9D1756C /* Pods-MSWatchKitNotifications-MSWatchKitNotifications-dummy.m in Sources */,
+				1C22919D23D59565A2748BD0 /* UILocalNotification+MSWatchKitNotificationSerialization.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAFDA9EE8785245FE5EB383F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F672D5D532A7A4E88DBEC91E /* Pods-MSWatchKitNotifications WatchKit Extension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE7B35E422B41D8535CFDC04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MSWatchKitNotifications-MSWatchKitNotifications";
+			target = 6CE7EFA10A51739659747422 /* Pods-MSWatchKitNotifications-MSWatchKitNotifications */;
+			targetProxy = 64CECF4C07B1FC5948B8762A /* PBXContainerItemProxy */;
+		};
+		BF870632327C16AB77B3323A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MSWatchKitNotifications WatchKit Extension-MSWatchKitNotifications";
+			target = F77BF5BAA842410AB21BA1E1 /* Pods-MSWatchKitNotifications WatchKit Extension-MSWatchKitNotifications */;
+			targetProxy = 63787AC68234F4531E367D21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18E1C624289AAC636067B1FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 649E8F37238BC3457E1D2122 /* Pods-MSWatchKitNotifications WatchKit Extension.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1EB0B8F40A062C85BE843F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C862B2D81FF678D432D3161B /* Pods-MSWatchKitNotifications-MSWatchKitNotifications-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MSWatchKitNotifications-MSWatchKitNotifications/Pods-MSWatchKitNotifications-MSWatchKitNotifications-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3E07CB28E1D299BE54E78338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7009EB7953FC760AD2FF267 /* Pods-MSWatchKitNotifications.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4193C182E6FCCC3B9B2BF364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4B38060D5C0E49D2280FCAE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE84780DDABA4AB11B37B5C9 /* Pods-MSWatchKitNotifications.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		56734FF7AE21BA1AE49154D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FC607F43488552E7E776CD4 /* Pods-MSWatchKitNotifications WatchKit Extension-MSWatchKitNotifications-Private.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MSWatchKitNotifications WatchKit Extension-MSWatchKitNotifications/Pods-MSWatchKitNotifications WatchKit Extension-MSWatchKitNotifications-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		63354F5BB708C365B9CF0ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FC607F43488552E7E776CD4 /* Pods-MSWatchKitNotifications WatchKit Extension-MSWatchKitNotifications-Private.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MSWatchKitNotifications WatchKit Extension-MSWatchKitNotifications/Pods-MSWatchKitNotifications WatchKit Extension-MSWatchKitNotifications-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C738C37CD5490E879E03B75F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D530184CE9DFFE6135B9A8E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEDA60833ED858B3C6B7BA64 /* Pods-MSWatchKitNotifications WatchKit Extension.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F5E8EA214BCCDC262976A65F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C862B2D81FF678D432D3161B /* Pods-MSWatchKitNotifications-MSWatchKitNotifications-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MSWatchKitNotifications-MSWatchKitNotifications/Pods-MSWatchKitNotifications-MSWatchKitNotifications-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14DC0C9327F425DBF3928F7E /* Build configuration list for PBXNativeTarget "Pods-MSWatchKitNotifications WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E1C624289AAC636067B1FA /* Debug */,
+				D530184CE9DFFE6135B9A8E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2842FEF16C92B75EE9D03FC3 /* Build configuration list for PBXNativeTarget "Pods-MSWatchKitNotifications-MSWatchKitNotifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EB0B8F40A062C85BE843F05 /* Debug */,
+				F5E8EA214BCCDC262976A65F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B310989F6F54CE16B565428 /* Build configuration list for PBXNativeTarget "Pods-MSWatchKitNotifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B38060D5C0E49D2280FCAE5 /* Debug */,
+				3E07CB28E1D299BE54E78338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60AB38E333FE90628C5ECFA0 /* Build configuration list for PBXNativeTarget "Pods-MSWatchKitNotifications WatchKit Extension-MSWatchKitNotifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56734FF7AE21BA1AE49154D1 /* Debug */,
+				63354F5BB708C365B9CF0ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEBAD8B6E2299F6A19A496D7 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4193C182E6FCCC3B9B2BF364 /* Debug */,
+				C738C37CD5490E879E03B75F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7D391C61F4547542D60D857 /* Project object */;
+}

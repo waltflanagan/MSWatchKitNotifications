@@ -1,0 +1,21 @@
+PODS:
+  - MSWatchKitNotifications (0.1.0):
+    - MSWatchKitNotifications/App (= 0.1.0)
+  - MSWatchKitNotifications/App (0.1.0):
+    - MSWatchKitNotifications/Core
+  - MSWatchKitNotifications/Core (0.1.0)
+  - MSWatchKitNotifications/Extension (0.1.0):
+    - MSWatchKitNotifications/Core
+
+DEPENDENCIES:
+  - MSWatchKitNotifications (from `../`)
+  - MSWatchKitNotifications/Extension (from `../`)
+
+EXTERNAL SOURCES:
+  MSWatchKitNotifications:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MSWatchKitNotifications: 9c13c89331c75c2e0508d9ee882376f6756bcc20
+
+COCOAPODS: 0.36.3

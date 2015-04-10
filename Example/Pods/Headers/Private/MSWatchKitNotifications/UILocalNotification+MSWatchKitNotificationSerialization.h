@@ -1,0 +1,1 @@
+../../../../../Pod/Classes/Core/UILocalNotification+MSWatchKitNotificationSerialization.h

@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "MSWatchKitNotifications"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "WKInterfaceController+UILocalNotification"
   s.description      = <<-DESC
                       MSWatchKitNotifications allows you to schedule UILocalNotifications from WKInterfaceController.

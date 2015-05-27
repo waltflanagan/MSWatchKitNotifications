@@ -38,7 +38,7 @@
 
 +(void) cancelLocalNotification:(UILocalNotification*) notification completion:(void(^)(NSError* error))completion
 {
-   [WKInterfaceController openParentApplication:@{ MSWatchKitNotificationActionKey : MSWatchKitNotificationActionPresentNotificationNow,
+   [WKInterfaceController openParentApplication:@{ MSWatchKitNotificationActionKey : MSWatchKitNotificationActionCancelNotification,
                                                    MSWatchKitNotificationNotificationPayloadKey : [notification ms_serializedNotification]}
                                           reply:^(NSDictionary *replyInfo, NSError *replyError) {
                                              if(completion)
